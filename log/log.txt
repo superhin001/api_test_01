@@ -1,0 +1,9 @@
+[2018-10-14 10:54:05] DEBUG [db_query: db.py, 26] select * from user where name='张三'
+[2018-10-14 10:54:05] DEBUG [db_query: db.py, 27] ((3, '张三', 'e10adc3949ba59abbe56e057f20f883e'),)
+[2018-10-14 11:57:46] INFO [send_report: send_email.py, 38] 邮件发送完成
+[2018-10-14 12:34:52] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2018-10-14 12:34:52] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2018-10-14 12:35:00] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2018-10-14 12:35:00] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2018-10-14 13:30:46] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2018-10-14 13:30:46] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
